@@ -39,7 +39,7 @@ export function Home() {
             return;
         }
 
-        history.push(`/room/${roomCode}`); 
+        history.push(`/rooms/${roomCode}`); 
     }
 
     return (
